@@ -9,6 +9,13 @@ Other sites for support are:
   - [IDEA](https://www.jetbrains.com/idea/)
   - [Video-Exercise](https://www.youtube.com/watch?v=uQqlO3IGpTU&t=7s)
 
+## You must have installed those:
+  - [Maven](https://maven.apache.org/download.cgi)
+  - [NodeJs](https://nodejs.org/es/download/)
+  - [git](https://git-scm.com/downloads)
+  - [java 11 JDK](https://www.oracle.com/co/java/technologies/javase-jdk11-downloads.html)
+  - [MySQL](https://dev.mysql.com/downloads/mysql/5.7.html)
+
 ## Steps to start
   - Follow the steps in the site [Getting Started](https://github.com/mraible/jhipster6-demo/),
   - use this ".yo-rc.json" with MySQL DB
@@ -54,13 +61,13 @@ Other sites for support are:
     }
   }
   ```
-  - create the Data Base using this SQL command into MySQL
+  - Create the Data Base using this SQL command into MySQL
   ```bash
     create database blog; -- Creates the new database
     create user 'jhipuser'@'%' identified by 'use a strong password'; -- Creates the user
     grant all on blog.* to 'jhipuser'@'%'; -- Gives all privileges to the new user on the newly created database
   ```
-  - increase the DB security, whit this command into MySQL
+  - Increase the DB security, with this command into MySQL
   ```bash
     revoke all on blog.* from 'jhipuser'@'%';
     grant select, insert, delete, update on blog.* to 'jhipuser'@'%';
