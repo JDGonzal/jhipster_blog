@@ -34,8 +34,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password: cascade
+    username: jhipuser
+    password: h1s_1g_4nd_5r0ngp5rd0w54_t1b_4_sT
     hikari:
       poolName: Hikari
       auto-commit: false
