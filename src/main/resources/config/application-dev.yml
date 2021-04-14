@@ -37,8 +37,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: jhipuser
-    password: h1s_1g_4nd_5r0ngp5rd0w54_t1b_4_sT
+    username:
+    password:
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -59,7 +59,8 @@ spring:
       hibernate.generate_statistics: false
   liquibase:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
-    contexts: dev, faker
+    # Replace by 'dev, faker' to add the faker context and have sample data loaded in dev environment
+    contexts: dev
   mail:
     host: localhost
     port: 25
