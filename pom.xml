@@ -5,8 +5,8 @@
 
     <groupId>org.jhipster.blog</groupId>
     <artifactId>blog</artifactId>
-    <version>0.0.1-2021-05-09/version>
-    <packaging>war</packaging>
+    <version>0.0.1-2021-05-09</version>
+    <packaging>jar</packaging>
     <name>Blog</name>
 
     <repositories>
