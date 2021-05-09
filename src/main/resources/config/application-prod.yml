@@ -34,8 +34,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username:
-    password:
+    username: jhipuser
+    password: h1s_1g_4nd_5r0ngp5rd0w54_t1b_4_sT
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -58,10 +58,15 @@ spring:
   liquibase:
     contexts: prod
   mail:
-    host: localhost
-    port: 25
-    username:
-    password:
+    host: smtp.gmail.com
+    port: 587
+    username: alquimiasoftwarecol@gmail.com
+    password: dr0w554p_gn0rt5_dn4_g1b_4_s1_s1hT
+    protocol: smtp
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
   thymeleaf:
     cache: true
 

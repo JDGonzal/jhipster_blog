@@ -128,7 +128,7 @@ jhipster:
   #     allow-credentials: true
   #     max-age: 1800
   mail:
-    from: blog@localhost
+    from: noreply@lapolla.com
   swagger:
     default-include-pattern: /api/.*
     title: blog API

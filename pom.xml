@@ -5,8 +5,8 @@
 
     <groupId>org.jhipster.blog</groupId>
     <artifactId>blog</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>0.0.1-2021-05-09/version>
+    <packaging>war</packaging>
     <name>Blog</name>
 
     <repositories>
@@ -847,6 +847,7 @@
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-undertow</artifactId>
+                    <scope>provided</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
